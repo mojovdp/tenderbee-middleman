@@ -1,0 +1,1 @@
+for(var conditionsButtons=document.getElementsByClassName("onglet"),i=0;i<conditionsButtons.length;i++)conditionsButtons[i].addEventListener("click",function(){var t=document.getElementsByClassName("ongletactif");t.length>0&&(t[0].className=t[0].className.replace(" ongletactif","")),this.className+=" ongletactif"});

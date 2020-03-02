@@ -1,0 +1,1 @@
+function closeCookieConsent(){document.getElementById("cookieConsent").style.display="none"}function openCookieModal(){$("#myModal").modal("toggle")}function closeCookieModal(){var o=document.getElementById("myModal"),e=document.querySelector(".modal-backdrop");o.style.display="none",e.style.display="none",window.location=window.location}

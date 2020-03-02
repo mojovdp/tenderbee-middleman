@@ -1,0 +1,261 @@
+//--------------------------------------------------------------------------------------------- PHONE
+@media only screen and (max-width: 420px) {
+    .entrepriseBackground {
+        background: white;
+    }
+    #stickyNav {
+    // display: none;
+    padding-left: 5vw;
+    box-sizing:border-box;
+}
+.logoAndIcons {
+  margin-bottom: 3vw;
+  justify-content: space-around;
+  }
+  .iconContainer {
+    margin-left: 5vw;
+  }
+.stickyNavContent{
+    margin: 0 !important;
+    .buttonMedium{
+      // margin-right:10vw;
+  }
+}
+.photo8 {
+    background-size: 100% !important;
+}
+.entrepriseImageMiniContainer.left{
+    padding-right:0;
+    margin-right:0;
+    padding-left:0;
+    margin-left:0;
+}
+.entrepriseImageMiniContainer{
+    padding-left: 0;
+}
+.entrepriseFormContainer{
+    height:auto;
+    margin-top: -20vh;
+    grid-template-columns: 1fr;
+    width: 82vw;
+    // margin: -100px 0px 100px 4vw;
+    padding: 10px 10px;
+    width: 88vw;
+    margin: 0 auto;
+    margin-top: -20vh;
+}
+
+.entrepriseFormContainer, .footerFormContainer {
+    .inputContainer {
+        padding: 5px;
+        .inputLabel {
+            padding-top:2px;
+            padding-bottom:2px;
+        }
+    }
+    .formButtonPlacement {
+        justify-content: center;
+        margin-top: 21px;
+        padding: 0;
+        margin-bottom: 20px;
+        .buttonMedium {
+            text-align:center;
+            font-size:15px;
+            width: 100%;
+            margin: 0;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            height: 45px;
+        }
+    }
+}
+.entrepriseGridContainer {
+    flex-direction: column;
+    padding-left: 0;
+    width: 100vw;
+    margin-bottom: 6.5vh;
+    .homeTextMiniContainer {
+        margin-top:-.2em;
+    }
+}
+
+
+.reverse {
+    flex-direction: column-reverse;
+}
+.entrepriseImageMiniContainer{
+    width: auto;
+}
+.entrepriseContainer {
+    height: 75vh;
+    padding-bottom: 0;
+}
+.entrepriseAccrocheText {
+    width: 90vw;
+}
+.entrepriseAccrocheText h1.whiteText {
+    font-size: 34px;
+    padding: 0px 0px;
+    line-height: 1.4;
+    font-weight: bold;
+}
+.entrepriseImageMiniContainer {
+    margin-bottom: 0;
+}
+.photo5 {
+    width:63vw;
+}
+.photo6 {
+    background-position: center;
+    width: 95vw;
+    margin: 0 auto;
+    background-size: contain;
+}
+.photo7 {
+    background-position: center;
+    width: 95vw;
+    background-size: contain;
+}
+.photo8 {
+    background-size: 60%;
+    background-position: center;
+}
+.footerFormContainer {
+    grid-template-columns: 1fr;
+    width: 90vw;
+    padding: 10px 2vw;
+}
+.entreprisefooterContainer2 {
+    flex-direction: column;
+    margin: 100px 0 -100px 5vw;
+    width: 94vw;
+    margin-left: 3vw;
+}
+.footerTitleText {
+    padding-left:3vw;
+}
+.footerContainerBlue.entreprise{
+    height: 86vh;
+    margin-top: -48vh;
+}
+}
+//--------------------------------------------------------------------------------------------- TABLET
+@media only screen and (min-width: 420px) and (max-width: 1140px) {
+  .entrepriseFormContainer {
+    width: 60vw;
+    margin: -135px 0px 100px 20vw;
+  }
+  .footerFormContainer {
+    width: 100%;
+  }
+  .entrepriseGridContainer{
+    width: 100vw;
+    padding-left:0;
+}
+.entrepriseImageMiniContainer.left{
+    padding-right:0;
+    padding-left:0;
+}
+.entrepriseImageMiniContainer{
+    padding-left:0;
+}
+.border70vwGray{
+    width: 100vw;
+    margin-left:0;
+}
+.entrepriseFormContainer {
+    grid-template-columns: 1fr;
+    height: 450px;
+}
+.photo5 {
+    background-size: 70%;
+    background-position: center;
+}
+.photo8 {
+    background-size: 100%;
+    background-position: center;
+}
+.photo6 {
+    background-position: center;
+}
+.photo7 {
+    background-position: center;
+}
+.entreprisefooterContainer2 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 10vw;
+    margin: auto;
+    margin-bottom: -15vh;
+}
+.footerTextContainer {
+    width: 60vw;
+}
+.navbar {
+    width: 100vw;
+}
+.navbarLogoContainer {
+    left: 5vw;
+}
+}
+
+@media only screen and (min-width: 1141px){
+  .entrepriseContainer{
+    width: 100vw;
+}
+.entrepriseFormContainer {
+    width: 50%;
+    height: 270px;
+    margin: -135px 0px 100px 0%;
+    margin: 0 auto;
+    margin-top:-135px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.entrepriseGridContainer {
+    width: 85%;
+    padding-left: 0;
+    margin-left: 0;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.entrepriseGridContainer > div {
+    width: 50%
+}
+
+.entrepriseImageMiniContainer {
+    width: auto;
+
+}
+.entrepriseImageMiniContainer.left {
+    margin-right:0;
+    padding-right: 0;
+    padding-left:0;
+}
+.homeTextMiniContainer {
+    padding: 0 0px;
+    h2 {
+        margin-bottom: 10px;
+        font-size: 30px;
+
+    }
+}
+.entrepriseGridContainer.reverse{
+  .homeTextMiniContainer{
+    padding-right:0px;
+}
+}
+.entreprisefooterContainer2 {
+    width: 85%;
+    margin: 0px 0px -164px 0%;
+    margin: 0 auto;
+    margin-bottom:-164px;
+}
+.footerContainerBlue {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+}
+}

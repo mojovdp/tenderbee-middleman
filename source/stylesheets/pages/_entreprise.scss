@@ -1,0 +1,160 @@
+.entrepriseContainer {
+  height: 50vh;
+  background-color: #1F2145;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.entrepriseAccrocheText {
+  width: 50vw;
+  text-align: center;
+}
+.formgrid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.entrepriseFormContainer {
+  width: 40vw;
+  height: 270px;
+  position: relative;
+  margin: -135px 0px 100px 30vw;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 20px;
+}
+.formEntreprise{
+  display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    width: 100%;
+
+}
+.marginBottom60 {
+  margin-bottom: 60px;
+}
+.formButtonPlacement {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 15px 20px 0px;
+}
+
+.entrepriseGridContainer {
+  display: flex;
+  width: 70vw;
+  padding-left: 15vw;
+  margin-bottom: 100px;
+}
+.entrepriseImageMiniContainer {
+  width: 35vw;
+  display: flex;
+  padding-left: 96px;
+    /* margin-left: 96px; */
+    box-sizing: border-box;
+  }
+  .entrepriseGridContainerImages {
+    height: 220px;
+    width: 475px;
+  }
+
+  .entrepriseImageMiniContainer.left{
+    justify-content: center;
+    padding-right: 96px;
+    box-sizing: border-box;
+    margin-right: 96px;
+  }
+  .photo5 {
+    background-image: url("../images/boostez\ entreprise.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 280px;
+  }
+  .photo6 {
+    background-image: url("../images/demandes\ claires.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .photo7 {
+    background-image: url("../images/clients.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .photo8 {
+    background-image: url("../images/offreacceptee.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .footerFormContainer {
+    width: 60%;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    padding: 10px 20px;
+  }
+
+  .footerTextContainer {
+    display: flex;
+    text-align: left;
+    width:410px
+  }
+
+  .entreprisefooterContainer2 {
+    height: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    display: flex;
+    // align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
+    margin: 100px 0px -150px 15vw;
+  }
+
+  .experienceContainerText{
+  margin-right:96px;
+
+  transition:all ease 1s;
+}
+.experienceBeeImage{
+  transition: all ease 1.5s
+}
+
+.iconContainer {
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.logoAndIcons {
+  display: flex;
+  flex-direction: row;
+}
+
+.blogContactBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1030px) {
+.formEntreprise{
+  display: grid;
+    -ms-grid-columns: 1frc 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+ }
+
+ .entreprisefooterContainer2 {
+  display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+
+ }
+}

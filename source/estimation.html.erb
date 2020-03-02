@@ -1,0 +1,39 @@
+---
+title: TenderBee | Estimation de mes travaux de rénovation
+description: Comment évaluer le coût de vos travaux de rénovation
+canonical: https://www.tenderbee.be/estimation/
+---
+<% @experience = true %>
+<div class="experienceContainer">
+    <a href="/index.html" style="text-decoration: none;">
+        <div class="experienceLogoContainer">
+            <a href="/">
+                <%= image_tag 'logo_blue.png', :class => "navbarLogo" %>
+            </a>
+        </div>
+    </a>
+
+
+    <div class="experienceContainerContent">
+        <div class="experienceContainerText">
+            <h1 id="titreEstimation">Bienvenue! Je vais vous aider à estimer vos travaux</h1>
+            <div class="bodyTextBig">Choisissez quel canal vous désirez utiliser:</div>
+            <br>
+            <div class="experienceButtonContainer">
+              <a href="/experience" style="text-decoration: none">
+                <button class="buttonMediumShadow">Via ce site web</button>
+              </a>
+                <button class="buttonMediumShadow"><img src="../images/messenger.png" alt="Messenger icon"> Messenger</button>
+                <button class="buttonMediumShadow"><img src="../images/whatsapp.svg" alt="Whatsapp icon"> WhatsApp</button>
+            </div>
+        </div>
+        <%= image_tag  "abeille.svg", :class => "experienceBeeImage" %>
+    </div>
+
+</div>
+
+
+ <!-- ---------------------------------------------------------- SCROLL TO TOP BUTTON -->
+
+<button onclick="topFunction()" id="myScrollTopBtn" title="Go to top">Back to Top</button>
+<%= javascript_include_tag "transition" %>

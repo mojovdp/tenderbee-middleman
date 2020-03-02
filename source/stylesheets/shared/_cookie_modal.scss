@@ -1,0 +1,94 @@
+
+.conditionsModal{
+  height: 100vh;
+    width: 100vw;
+    padding: 5vw;
+    box-sizing: border-box;
+}
+
+
+.conditionsModalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2vw 0 ;
+  // margin: 5vw;
+  border-radius: 8px;
+  background-color: #1F2145;
+  .conditionsTitle {
+    padding-top: 0;
+    padding-bottom: 2vw;
+  };
+  a.close {
+    color: white !important;
+    position: absolute;
+    top: 6vw;
+    right: 6vw;
+  }
+}
+
+a.modalbtn {
+  font-weight: bold;
+  color: black !important;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8vw 1.1vw;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  width: 13%;
+  margin-right: 10vw;
+  margin-top: 3vw;
+}
+
+.modalbtnctn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a.modalbtn:hover {
+  background-color: #54D262;
+}
+
+
+@media screen and (max-width: 1030px) {
+  .conditionsModal{
+  height: 100vh;
+    width: 100vw;
+    padding: 0vw !important;
+    box-sizing: border-box;
+}
+  .conditionsModalContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1F2145;
+    padding: 0;
+    margin: 0;
+    .conditionsTitle {
+      width: 100%;
+      position: absolute;
+      z-index: 50000;
+      top: 20vw;
+    };
+    a.close {
+      color: white !important;
+      z-index: 50000;
+      top: 5vw;
+      right: 5vw;
+    };
+    .modalbtnctn {
+      z-index: 50000;
+      position:absolute;
+      bottom: 21vw;
+      right: 30vw;
+      width: 100%;
+      a.modalbtn {
+        margin-right: 0;
+        width: 40%;
+        font-size: 3.5vw;
+        padding: 2vw 7vw;
+      };
+    };
+  };
+}

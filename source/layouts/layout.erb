@@ -1,0 +1,96 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/e619794919.js" crossorigin="anonymous"></script>
+    <!-- Font awesome -->
+    <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> -->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WZHSTKB');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Start Google Analytics code added because of Landbot -->
+    <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||
+[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-142053418-2', 'auto');ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics code added because of Landbot -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="description" content="<%= current_page.data.description %>">
+
+    <meta property="og:title" content="<%= current_page.data.ogtitle %>" />
+    <meta property="og:type" content="<%= current_page.data.ogtype %>" />
+    <meta property="og:description" content="<%= current_page.data.ogdescription %>" />
+    <meta property="og:url" content="<%= current_page.data.ogurl %>" />
+    <meta property="og:image" content="<%= current_page.data.ogimage %>" />
+
+    <link rel="canonical" href="<%= current_page.data.canonical %>" />
+    <!-- <link rel="canonical" href="https://www.tenderbee.be" /> -->
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title || "Middleman" %></title>
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "site" %>
+    <%= favicon_tag 'images/favicon.png' %>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '432794420760837');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=432794420760837&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+  </head>
+  <body style="margin: 0px;">
+    <!-- Landbot Permanent Help -->
+    <% if current_page.data.lang == "En" %>
+    <%= partial 'partials/helpBotEN' %>
+    <% else %>
+    <%= partial 'partials/helpBotFR' %>
+    <% end %>
+    <!-- Landbot Permanent Help -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZHSTKB"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="fix_width_container">
+      <% if current_page.data.lang == "En" && current_page.data.shower != "Not" %>
+      <%= partial 'partials/navbarEn' %>
+      <% elsif current_page.data.shower != "Not"%>
+      <%= partial 'partials/navbar' %>
+      <% end %>
+      <%= yield %>
+      <% if current_page.data.title != "TenderBee | Conditions" && current_page.data.lang == "En" %>
+      <%= partial 'partials/cookieEn' %>
+      <% elsif current_page.data.title != "TenderBee | Conditions"%>
+      <%= partial 'partials/cookie' %>
+      <% end %>
+    </div>
+
+    <%= javascript_include_tag "site" %>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<%= javascript_include_tag "cookie" %>
+<%= javascript_include_tag "cookieModal" %>
+<%#= javascript_include_tag "conditions" %>
+  </body>
+</html>
+<%= javascript_include_tag "onScroll" %>
+<%= javascript_include_tag "mobileMenu" %>
+

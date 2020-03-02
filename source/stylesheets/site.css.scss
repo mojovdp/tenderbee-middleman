@@ -1,0 +1,22 @@
+@import "shared/designSystem";
+@import "shared/navbar";
+@import "shared/footer";
+@import "shared/stickynav";
+@import "shared/scroll_to_top_btn";
+@import "shared/cookie";
+@import "shared/cookie_modal";
+
+@import "pages/home";
+@import "pages/entreprise";
+@import "pages/contact";
+@import "pages/experience";
+@import "pages/estimation";
+@import "pages/conditions";
+
+@import "media_queries/mediaqueries_home";
+@import "media_queries/mediaqueries_entreprise";
+@import "media_queries/mediaqueries_contact";
+@import "media_queries/mediaqueries_experience";
+@import "media_queries/mediaqueries_navbar";
+@import "media_queries/mediaqueries_conditions";
+@import "media_queries/mediaqueries_cookie";

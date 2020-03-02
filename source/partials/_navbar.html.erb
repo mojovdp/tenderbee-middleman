@@ -1,0 +1,72 @@
+<div id="homeNav" class="navbar">
+    <div>
+        <div class="navbarLogoContainer">
+            <a href="/">
+                <%= image_tag 'logo_white.png', :class => "navbarLogo" %>
+            </a>
+        </div>
+    </div>
+    <div class="navbarOptionsContainer">
+        <a href="https://blog.tenderbee.be" style="text-decoration: none;">
+            <div class="bodyTextRegular whiteText" style="margin-right: 10px;">Blog</div>
+        </a>
+        <a href="/contact" style="text-decoration: none;">
+            <div class="bodyTextRegular whiteText" style="margin-right: 10px;">Contact</div>
+        </a>
+        <div class="langOptions">
+          <a href="/" style="text-decoration: none;">
+              <div class="bodyTextRegular whiteText noPadding" style="margin-right: 10px;">fr</div>
+          </a>
+          <div class="bodyTextRegular whiteText noPadding">|
+          </div>
+          <a href="/en/" style="text-decoration: none;">
+              <div class="bodyTextRegular whiteText" style="margin-left: 10px;">en</div>
+          </a>
+        </div>
+        <button class="buttonMediumShadow"><a href="/Entreprise" style="text-decoration: none; color: black;">Je suis une entreprise</a></button>
+    </div>
+    <div class="navbarMobileOptionsContainer" id="mobileMenu">
+        <img src="../images/burger_menu.svg" alt="Menu icon" class="mobileMenu">
+    </div>
+    <div class="mobileMenuExpanded invisible" id="mobileMenuExpanded">
+        <div style="display: flex; justify-content: flex-end;">
+            <img src="../images/cross.svg" alt="Closing cross" class="mobileMenu" id="mobileMenuClose">
+        </div>
+        <br>
+        <a href="https://blog.tenderbee.be" style="text-decoration: none;">
+            <div class="bodyTextRegular Text" style="margin-right: 40px; margin-bottom: 20px;">Blog</div>
+        </a>
+        <a href="/contact" style="text-decoration: none;">
+            <div class="bodyTextRegular Text" style="margin-right: 40px; margin-bottom: 20px;">Contactez-nous</div>
+        </a>
+        <div class="langOptions mobileLang">
+          <a href="/" style="text-decoration: none;">
+              <div class="bodyTextRegular noPadding" style="margin-right: 10px;">fr</div>
+          </a>
+          <div class="bodyTextRegular noPadding">|
+          </div>
+          <a href="/en/" style="text-decoration: none;">
+              <div class="bodyTextRegular" style="margin-left: 10px;">en</div>
+          </a>
+        </div>
+        <br>
+        <button class="buttonMediumShadow mobileMenuButton"><a href="/Entreprise">Je suis une entreprise</a></button>
+
+
+    </div>
+    <!-- <script src="javascripts/mobileMenu.js"></script> -->
+</div>
+<div id="stickyNav" class="stickyNav">
+    <div class="stickyNavContent">
+     <a href="/">
+        <%= image_tag 'logo_blue.png', :class => "navbarLogo" %>
+    </a>
+    <a href="/experience" style="text-decoration: none;">
+      <button class="buttonMedium">
+          Lancez votre estimation &nbsp; <img src="../images/arrow right.svg" alt="Arrow" class="arrowRemove arrowAnimate">
+      </button>
+  </a>
+</div>
+</div>
+<div class="mobileMenuShadeBackground invisible" id="mobileMenuShadeBackground"></div>
+

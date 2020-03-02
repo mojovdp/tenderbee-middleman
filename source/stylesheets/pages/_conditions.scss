@@ -1,0 +1,207 @@
+
+.page-conditions {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1F2145;
+}
+
+.conditionsContainer {
+width: 100%;
+// min-height: 100vh;
+background-color: #1F2145;
+justify-content: center;
+align-items: center;
+}
+
+.conditionsTitle {
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.conditiontabs {
+  width: 70vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.collapsible {
+    background: #1F2145;
+    font-family: 'Poppins', sans-serif;
+    color: #A5A6B3;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    height: 7vh;
+    display:block;
+    margin: 0 auto;
+}
+
+.active, .collapsible:hover {
+  background-color: #383a69;
+  color:white;
+}
+
+.cond-content {
+    display: none;
+    overflow: hidden;
+    width: inherit;
+}
+
+// ICONS
+.collapsible:after {
+    content: '+'; /* Unicode character for "plus" sign (+) */
+    font-size: 18px;
+    // color: white !important;
+    float: right;
+    margin-left: 5px;
+
+}
+
+.active:after {
+    content: "-"; /* Unicode character for "minus" sign (-) */
+    color: white !important;
+}
+
+// BACKGROUND DIVS FOR DOCUMENTS
+.legalDocumentFormat {
+    font-family: 'Poppins', sans-serif;
+    color: #9b9b9b;
+    height: 71vh;
+    overflow: scroll;
+    background-color: white;
+    padding: 0 1vw;
+
+    h1,h2 {
+        text-align: center;
+    }
+
+    h1,h2,h3 {
+        color: #1F2145;
+    }
+
+    h4 {
+        font-style: italic;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .legalDocumentFormat {
+        margin: 0 !important;
+        h1 {
+            font-size: 20px;
+        }
+        h2 {
+            font-size: 16px;
+        }
+    }
+    .conditiontabs {
+      display: block !important;
+      position:absolute;
+      z-index:100;
+      width: 100vw;
+      padding-top: 6vw;
+    }
+
+    .collapsible {
+      width: 95%;
+    }
+    .cond-content {
+      width: 95%;
+      margin-left: 2.5%;
+    }
+
+    .iHaveReadAndAgree {
+      width: 95% !important;
+      margin-left: 2.5%;
+    }
+    .confirmbutton {
+        margin-left: 0px;
+        margin-right: 2vw;
+    }
+    .iHaveReadAndAgree p {
+        padding-left: 20px !important;
+        font-size: 10px;
+    }
+
+    .signUpModal {
+        top: 5vh;
+        height: 90vh;
+    }
+    .sticky {
+      z-index: 200;
+    }
+    #myScrollTopBtn {
+      z-index: 201;
+    }
+}
+
+.iHaveReadAndAgree {
+    height: 8vh;
+    opacity: 0.5;
+    background-color: #A5A6B3;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    display: none;
+    width: 100%;
+    p {
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #1F2145;
+    }
+    input {
+        margin-left: 10px;
+    }
+}
+
+.visibility {
+    display: flex;
+}
+
+.nonvisibility {
+    display: none;
+}
+
+// CONFIRM BUTTON
+.confirmbutton {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    pointer-events: none;
+    margin-left: 2vw;
+    padding: 7px 12px;
+    width: 95px;
+    cursor: pointer;
+    text-decoration: none;
+        &:hover {
+        background-color: #90E699;
+    }
+}
+
+.confirmbutton-green {
+    pointer-events: auto;
+    background-color: #54D262;
+}
+
+.pointer {
+    pointer-events: auto !important;
+}
+
+#legalCheck1, #legalCheck2, #legalCheck3 {
+    pointer-events: none;
+}
+
+.confirmbutton-accepted {
+    pointer-events: none;
+    background-color: #41a54c !important;
+}
+

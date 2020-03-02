@@ -1,0 +1,77 @@
+//--------------------------------------------------------------------------------------------- PHONE
+@media only screen and (max-width: 420px) {
+    .experienceButtonContainer {
+        flex-direction: column;
+    }
+    .experienceContainerContent {
+        flex-direction: column;
+        width: 90vw;
+        margin-left: 5vw;
+        align-items: normal;
+        justify-content: normal;
+    }
+    .experienceContainerText {
+        width: 90%;
+        h2 {
+            font-size: 27px;
+            margin-bottom: .5em;
+            width: 53vw;
+        }
+        .bodyTextBig {            
+            line-height: 1.7;
+        }
+    }
+    .experienceBeeImage {    
+        position: absolute;
+        top: 17vh;
+        right: 5vw;
+        height: 125px;
+        width: 125px;
+    }
+    .experienceLogoContainer {
+        padding: 2.4vh 0 0 5vw;
+        margin-bottom: 50px;
+    }
+    .buttonMediumShadow {
+        width: 90vw;
+        margin-bottom: 1em;
+        justify-content: center;
+        img {            
+            margin-right: 1em;
+        }
+    }
+    .experienceContainer {
+        background-size: auto;
+        background-size: 293%;
+        background-position: 49% 80%;
+        height: 110vh;
+    }
+}
+
+//--------------------------------------------------------------------------------------------- TABLET
+@media only screen and (min-width: 420px) and (max-width: 1141px) {
+  .experienceContainerContent{
+    padding: 3vw;
+}
+.buttonMediumShadow{
+    img{
+      margin-right:1vw;
+  }
+}
+.experienceButtonContainer {
+    width: 62vw;
+}
+.experienceLogoContainer {
+    padding: 2.4vh 0 0 5vw;
+}
+}
+@media only screen and (min-width: 1140px){
+    .experienceLogoContainer {
+        display: flex;
+        padding: 2.4vh 0 0 15%;
+    }
+    .experienceContainer {
+        height: 100vh;
+        width: 100vw;
+    }
+}

@@ -1,0 +1,23 @@
+#myScrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+    color: black;
+    cursor: pointer;
+    padding: 12px 15px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#myScrollTopBtn:hover {
+    transform: translateY(-2px);
+    transition: transform 0.5s ease;
+}

@@ -1,0 +1,125 @@
+//--------------------------------------------------------------------------------------------- PHONE
+@media only screen and (max-width: 420px) {
+    .entrepriseBackground {
+        background: white;
+    }
+    #stickyNav {
+    // display: none;
+    padding-left: 5vw;
+    box-sizing:border-box;
+}
+.stickyNavContent{
+    margin: 0 !important;
+    .buttonMedium{
+      // margin-right:10vw;
+  }
+}
+
+.conditionsOnglets {
+  grid-template-columns: 1fr;
+}
+
+.conditionsContainer {
+    height: 115vh;
+    padding-bottom: 0;
+}
+.entrepriseAccrocheText {
+    width: 90vw;
+}
+.entrepriseAccrocheText h1.whiteText {
+    font-size: 34px;
+    padding: 0px 0px;
+    line-height: 1.4;
+}
+
+.entreprisefooterContainer2 {
+    flex-direction: column;
+    margin: 100px 0 -100px 5vw;
+    width: 94vw;
+    margin-left: 3vw;
+}
+.footerTitleText {
+    padding-left:3vw;
+}
+.footerContainerBlue.entreprise{
+    height: 86vh;
+    margin-top: -48vh;
+}
+}
+//--------------------------------------------------------------------------------------------- TABLET
+@media only screen and (min-width: 420px) and (max-width: 1140px) {
+
+.border70vwGray{
+    width: 100vw;
+    margin-left:0;
+}
+
+.conditionsOnglets {
+  grid-template-columns: 1fr 1fr;
+}
+
+.entreprisefooterContainer2 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 10vw;
+    margin: auto;
+    margin-bottom: -15vh;
+}
+.footerTextContainer {
+    width: 60vw;
+}
+.navbar {
+    width: 100vw;
+}
+.navbarLogoContainer {
+    left: 5vw;
+}
+}
+
+@media only screen and (min-width: 1141px){
+  .conditionsContainer{
+    width: 100vw;
+}
+
+.homeTextMiniContainer {
+    padding: 0 0px;
+    h2 {
+        margin-bottom: 10px;
+        font-size: 30px;
+
+    }
+}
+
+.conditionsOnglets {
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 969px;
+}
+
+.entreprisefooterContainer2 {
+    width: 85%;
+    margin: 0px 0px -164px 0%;
+    margin: 0 auto;
+    margin-bottom:-164px;
+    display: flex;
+}
+.footerContainerBlue {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footerFormContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.formgrid {
+  width: 100%;
+  // display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+}
+

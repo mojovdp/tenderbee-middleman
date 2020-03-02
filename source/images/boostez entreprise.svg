@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="283" height="218" viewBox="0 0 283 218">
+  <defs>
+    <rect id="boostez-entreprise-a" width="52" height="129"/>
+    <rect id="boostez-entreprise-c" width="52" height="129"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1)">
+    <g transform="rotate(30 -9.48 315.782)">
+      <mask id="boostez-entreprise-b" fill="#fff">
+        <use xlink:href="#boostez-entreprise-a"/>
+      </mask>
+      <use fill="#55D262" xlink:href="#boostez-entreprise-a"/>
+      <g fill="#FFF" mask="url(#boostez-entreprise-b)">
+        <g transform="translate(1.007 2)">
+          <polygon points="0 30.996 50.002 0 50.002 16.563 0 47.018"/>
+          <polygon points="0 67.996 50.002 37 50.002 53.563 0 84.018"/>
+          <polygon points="0 104.996 50.002 74 50.002 90.563 0 121.018"/>
+        </g>
+      </g>
+      <use stroke="#1F2145" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" xlink:href="#boostez-entreprise-c"/>
+    </g>
+    <polygon fill="#55D262" stroke="#1F2145" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" points="188.888 23.659 229.888 62.659 147.888 62.659" transform="rotate(30 188.888 43.16)"/>
+    <polygon fill="#55D262" stroke="#1F2145" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" points="102.183 42.339 93.954 46.665 95.525 37.502 88.868 31.012 98.068 29.676 102.183 21.339 106.297 29.676 115.497 31.012 108.84 37.502 110.412 46.665" transform="rotate(7 102.183 35.339)"/>
+    <polygon fill="#55D262" stroke="#1F2145" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" points="249.351 55.883 241.122 60.209 242.694 51.046 236.037 44.557 245.237 43.22 249.351 34.883 253.466 43.22 262.666 44.557 256.009 51.046 257.58 60.209" transform="rotate(52 249.351 48.883)"/>
+    <polygon fill="#55D262" stroke="#1F2145" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" points="208.795 142.154 202.329 145.554 203.564 138.354 198.333 133.255 205.562 132.205 208.795 125.654 212.028 132.205 219.256 133.255 214.026 138.354 215.26 145.554" transform="rotate(133 208.795 136.654)"/>
+    <rect width="54" height="11" x="149.388" y="59.31" fill="#2B2D5C" opacity=".4" transform="rotate(30 176.388 64.81)"/>
+    <path stroke="#1F2145" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M104.733397,165.684583 C104.727112,177.100752 113.007095,189.063148 102.404692,198.950638 C96.8243916,204.154663 89.0157958,201.135676 85.8050919,207.684583" transform="rotate(30 96.805 186.685)"/>
+    <g stroke="#1F2145" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" transform="rotate(22 -439.077 246.934)">
+      <path d="M24.9501953 16.2695312L32.2056928 20M16 19L14 30M10 14L1 15M13 7L10 0"/>
+    </g>
+    <path stroke="#D8D8DC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M240.284593,191 C240.098969,190.285606 240,189.534711 240,188.76 C240,183.98826 243.754703,180.12 248.386364,180.12 C249.624031,180.12 250.799077,180.396217 251.856594,180.892079 C253.692628,177.383977 257.291992,175 261.431818,175 C266.839511,175 271.325005,179.067822 272.162651,184.395385 C272.881986,184.114032 273.662169,183.96 274.477273,183.96 C278.079676,183.96 281,186.968646 281,190.68 C281,190.787272 280.99756,190.893958 280.992735,191 L280.992735,191" transform="matrix(-1 0 0 1 521 0)"/>
+    <path stroke="#D8D8DC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M0.226607569,79 C0.0785158674,78.3990814 0,77.771128 0,77.125 C0,72.7757576 3.55752118,69.25 7.94594595,69.25 C9.0334055,69.25 10.0698428,69.4665017 11.0137684,69.8583862 C12.4069393,64.7547111 17.1123909,61 22.7027027,61 C27.3944332,61 31.4629045,63.6446644 33.4731687,67.5118576 C34.8675347,66.7094551 36.4877363,66.25 38.2162162,66.25 C42.7161916,66.25 46.4822738,69.3641154 47.4400878,73.5364925 C48.2036891,73.1919384 49.0522008,73 49.9459459,73 C53.2895077,73 56,75.6862915 56,79 L56,79"/>
+    <circle cx="10.5" cy="163.5" r="2.5" fill="#D8D8DC"/>
+    <circle cx="62.5" cy="121.5" r="1.5" fill="#D8D8DC"/>
+    <circle cx="161.5" cy="7.5" r="1.5" fill="#D8D8DC"/>
+    <circle cx="45.5" cy="2.5" r="2.5" fill="#D8D8DC"/>
+    <circle cx="274.5" cy="118.5" r="2.5" fill="#D8D8DC"/>
+    <circle cx="209.5" cy="173.5" r="1.5" fill="#D8D8DC"/>
+  </g>
+</svg>

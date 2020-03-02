@@ -1,0 +1,130 @@
+.iconContainer {
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.logoAndIcons {
+  display: flex;
+  flex-direction: row;
+}
+
+.blogContactBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexlabels {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items:center;
+    .optionalLabel {
+        font-family: 'Poppins', sans-serif;
+        font-size:11px;
+        color:hsla(237, 38%, 20%, .70);
+    }
+}
+.contactContainer {
+    height: 65vh;
+    background-color: #1F2145;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 220px;
+    box-sizing: border-box;
+}
+.contactAccrocheText {
+    width: 50vw;
+    text-align: center;
+}
+.contactFormContainer {
+    width: 40vw;
+    position: relative;
+    margin: -220px 0px 100px 30vw;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    padding: 10px 20px;
+}
+.formContact{
+      display: grid;
+    // -ms-grid-columns: 1fr;
+    // grid-template-columns: 1fr;
+}
+
+.formInputArea {
+    height: 120px;
+    color: #5A5B7F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19pt;
+    letter-spacing: 0.2pt;
+    padding: 0px 10px;
+    border-radius: 8px;
+    border: 1px solid #D7D8D9;
+    background-color: #F3F4F6;
+    &:hover {
+        border: 1px solid #55D262;
+    }
+}
+
+input:focus, textarea {
+    outline: none !important;
+}
+
+.contactMapContainer {
+    display: flex;
+    margin-bottom: 80px;
+}
+.contactMapContainerInfo {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 15vw;
+}
+.contactMapContainerMap {
+    width: 45vw;
+    display: flex;
+    & iframe {
+        z-index: 2;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+        width: 100%;
+    }
+}
+.contactIcons {
+    width: 15px;
+    margin: 0px 10px 0 0;
+}
+
+.smallIcon {
+    width: 12px;
+}
+
+.contactInfoFlex {
+    display: flex;
+    margin-bottom: 20px;
+    .bodyTextRegular {
+        line-height: 15pt;
+    }
+}
+
+.footer-content-display {
+  color: red;
+  justify-content: center;
+
+}
+
+.footer-content-padding {
+  padding-bottom: 6vh;
+  justify-content: center;
+}
